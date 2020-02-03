@@ -1,0 +1,12 @@
+Pakety jsou klasifikátorem řazeny do toků a každému toku je přiřazena fronta. Tok je identifikován na
+základě informací z hlaviček IP a TCP/UDP (zdrojové a cílové adresy, čísla protokolu, typu služby …).
+Na základě těchto informací se vytvoří hashovací funkcí ukazatel do fronty. Pokud fronta pro tok
+neexistuje, vytvoří se, pokud ano, paket se do ní zařadí. Fronty jsou obsluhovány plánovašem pro
+řízení váhových front WFQ. Váhové fronty rozšiřují vlastnosti cyklických front, počet odebraných
+paketů závisí na váze, která je přiřazena jednotlivým frontám. U cyklických Round Robin se z každé
+fronty vybírá jeden paket. Tedy u váhových front to v závislosti na váze fronty může být i více paketů.
+U linky s rychlostí R bude rychlost obsluhy paketů ri toku I dána vztahem [tohle_neumim_vytisknout]. Lze garantovat
+požadovanou rychlost či maximální zpoždění. Zajištěno mechanismem Leaky Bucket (Di <= bi/ri), kde
+b je velikost vědra, r je rychlost generování žetonů a D je maximální doba zpoždění toku i. Počet front
+zavísí na počtu aktivních toků. Dynamicky se vytváří a ruší toky => není umožněno přesné zajištění
+přenosového pásma. Pokud jsou fronty zaplněny, pakety jsou zahazovány.

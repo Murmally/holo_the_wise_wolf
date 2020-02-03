@@ -1,0 +1,9 @@
+Klasifikace paketů do jedné či více prioritních tříd ve výstupní frontě. Mohou se užít značky paketů
+jako bity v poli Type of Service, pole DSCP v hlavičce IP datagramu nebo na základě IP adres, čísel
+portů… Každá třída má svou frontu. Třídění provádí klasifikátor. Vybírají se (plánovačem) nejprve
+pakety ze tříd s vyšší prioritou. Až je prázdná fronta, jde se na nižší prioritu. Výhodou je rozlišení toků
+do různých tříd a nastavení priorit obsluhování.
+Může však dojít k vyhladovění, kdy pakety s vyšší prioritou pořád předbíhají ty s nižší. Říká se tomu
+striktní prioritizace, je vhodná například pro přenos VoIP, když je třeba zaručení nezahození paketů.
+Další variantou jsou těchto front jsou fronty řízení rychlosti, prioritnější pakety jsou upřednostňovány
+do té doby, dokud prioritní fronta nepřesáhne daného rychlostního limitu.

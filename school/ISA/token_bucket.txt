@@ -1,0 +1,23 @@
+Slouží k omezení rychlosti na konstantní rychlost bez ohledu na to, jaké shluky dat se mohou objevit
+v sítí objevit. Umožňuje krátkodobě překročit výstupní rychlosti tak, aby vstupní hluk prošel bez
+zahození. K tomu se užívá mechanismus zásobníku žetonů. Žeton = povolení přeposlat 1 byte. Žetony
+se generují určitou rychlostí. Zásobník umožňuje odeslat shluky dat až do velikosti vědra naráz a bez
+čekání (tohle leaky bucket neumožňuje). Na výstupu se mohou objevit omezené shluky dat, což
+tekoucí vědro neumožňuje.
+Algoritmus zásobníku žetonu dovoluje propouštět určité množství shluků při dané průměrné rychlosti
+CIR (velikost dat, které se za daný časový interval pošlou). Dále je definována maximální velikost
+shluků CBS, která definuje počet bytů, které mohou být krátkodobě přeposlány po síti. Časový
+interval T definuje dobu trvání shluku. Rychlost ve špičce definuje maximální počet bytů, které lze
+přenést během kratší časové periody.
+Průměrná rychlost CIR je poměr CBS/T, kde T je časový interval trvání shluků. Maximální rychlost ve
+špičce je dána PIR (maximální počet bytů, které lze poslat během kratší perioudy, u CIR je to během
+relativně delší) = CBS/t + CIR.
+Zásobník má velikost CBS (maximální velikost shluku), žetony se generují rychlostí CIR žetonů za
+časový interval. Pokud dojde paket o velikosti P a zásobník obsahuje X žetonů a X >= P, tak se odebere
+P žetonů a paket se přepošle na výstup. Pokud je zásobník prázdný a nebo počet žetonů je X < P,
+paket čeká na vygenerování potřebných žetonů. Při shluku paketů se pošle tolik paketů, kolik mám
+pro ně žetonů.
+Může se užít kombinace zásobíku žetonů a tekoucího vědra o rychlosti r, kde r je větší než CIR, ale
+menší než PIR. Tímto omezíme výstupní rychlosti na námi definovanou hodnotu.
+Pokud by se jednalo o ořezávání, tak by se v případě málo tokenů paket zahodil, prostě zásobník
+žetonů neexistuje frontu pro ukládání paketů, co přijdou na vstup.

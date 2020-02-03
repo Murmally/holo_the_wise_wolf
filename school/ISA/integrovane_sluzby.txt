@@ -1,0 +1,11 @@
+Jeden ze způsobů jak zajistit požadovanou kvalitu služeb. Poskytují společnou (integrovanou) službu
+množině provozních požadavků v určité doméně (části internetu). Úkolem integrovaných služeb je
+zajistit podporu QoS v sítích nad IP (jak sdílet dostupnou kapacitu síťových zdrojů v době zahlcení).
+V HW části směrovače je optimalizována nějaká rychlost a probíhá zde klasifikace paketů do tříd
+provozu, ta může odpovídat jednomu čí více tokům. Klasifikace na základě dat z hlavičky IP
+datagramu. Plánovač paketů obsluhuje jednu či více front pro každý výstupní port, určuje pořadí
+vybírání z front a případné zahození. Rezervace zdrojů probíhá v SW části.
+Tvoří několik součástí - rezervace zdrojů (pomocí RSVP protokolu), řízení přístupu, způsob řízení front
+a způsob zahazování paketů.
+Zajišťují 2 základní funkce: Rezervaci zdrojů (směrovač musí vědět, kolik zdrojů je rezervováno pro
+probíhající komunikaci), vytvoření spojení.

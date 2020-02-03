@@ -1,0 +1,1 @@
+Další standardem pro zabezpečení emailových zpráv je rozšíření Secure MIME (S/MIME). Podobně jako PGP poskytuje autentizaci, integritu dat, důvěrnost a neodmítnutelnost. Je to flexibilní technika, která podporuje různé typy kryptografických algoritmů. Využívá přitom standard MIME k zabezpečení různých typů emailových zpráv.

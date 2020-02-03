@@ -1,0 +1,11 @@
+Je to tzv. signalizační protokol, který má 2 základní funkce - slouží k navázání a ukončení spojení a
+k řízení jednoho nebo více časově synchronizovaných média streamů (funguje jako síťový dálkový
+ovladač pro multimediální servery). Je určený pro VOD a multimedia multicasting a broadcasting.
+Textový protokol, syntaxe je podobná http. Out-of-band protokol - data jsou doručována jiným
+protokolem (RTP), stateful protokol - protokol si udržuje informaci o stavu relace (ID relace, sekvenční
+číslo).
+Typy zpráv - DESCRIBE - žádost o zaslání popisu médií příslušných k URL (popsáno SDP), SETUP -
+požadavek na konkrétní objekt (média stream), odpověď obsahuje seznam parametrů nutných pro
+přenos, PLAY - příkaz pro server aby začal zasílat data specifikovaná zprávami SETUP, PAUSE - dočasně
+zastaví zasílání konkrétního streamu, TEARDOWN - zastaví zasílání konkrétního streamu, OPTION -
+použivání pro nestandardní žádosti klienta.

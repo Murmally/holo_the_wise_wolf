@@ -1,0 +1,8 @@
+Protokol RTP je transportní protokol pro přenos multimediálních dat zpracovávaných v reálném čase.
+Pracuje nad UDP. Obsahuje typ přenášených dat (RTP profil), sekvenční číslo a časovou značku.
+Podporuje také monitorování přenosu, ale on sám jej nemonitoruje, to dělá RTCP. Pro každý směr a
+typ médií samostatný tok.
+Stadard RTP definuje take kontrolní protokol RTCP, který slouží k monitorování kvality distribuce dat a
+přenosu řídících informací. Sleduje počet přenesených paketů, ztracených paketů, zpoždění, kolísání
+rychlosti a další. Provádí zpětnou vazbu aktuálního stavu sítě. Slouží pro předávání řídících informací
+pro tok RTP.

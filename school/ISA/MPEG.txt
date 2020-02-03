@@ -1,0 +1,13 @@
+Standard, který popisuje, jakým způsobem jsou části multimediálního obsahu kombinovány do
+jednoho datového toku - multiplexing. Umožňuje v jednom datovém toku odesílat jeden i více
+multimediálních streamů. Vhodné pro přenosy, při nichž je možné, že dojde ke ztrátě paketu nebo
+poškození dat v paketu a/nebo kde je potřeba posílat více než jeden program současně. Data jsou
+rozdělena na pakety pevné velikosti. Jednotlivé toky s médii se slučují do jednoho toku pomocí
+multiplexeru a k tomu jsou přidána další data sloužící pro usnadnění výběru programu uživateli (info
+o tom kanálu - jazyk, titulky atd.).
+MPEG TS se skládá ze sekvence transportních paketů o pevné délce obvykle 188 bytů. Každý MPEGTS paket obsahuje 184 vytů dat a 4 bytovou hlavičku. První byte hlavičky obsahuje vždy hodnotu
+0x47, což je sync byte. Klíčovou položkou je 13 bitových packet identifier (PID), která odpovídá
+jednotlivým elementárním streamům.
+Pro přijímaný transport stream musí uživatel určit, o které konkrétní pakety transport streamu má
+zájem nebo-li musí určit PID paketů. Pro usnadnění výběru PID jsou jako součást TS posílána
+metadata s informacemi o programu - PSI (program specific information).

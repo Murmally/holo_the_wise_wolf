@@ -1,0 +1,1 @@
+Záznamy RRSIG (Resource Record Signature) obsahují podpisy jednotlivých záznamů v podepsané zóně. Záznam obsahuje také dobu platnosti podpisu, použitý algoritmus, jméno podepisující autority a příznak, který se odkazuje na veřejný klíč pro ověření podpisu.

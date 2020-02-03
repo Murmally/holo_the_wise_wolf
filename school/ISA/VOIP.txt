@@ -1,0 +1,11 @@
+Základní bezpečností hrozby: Odposlech (může dojít spíše z vnitřní sítě, protože každý IP datagram
+může z dvou toků - signalizační a transportní - směrován jiným způsobem, není jednoduché zachytit
+VoIP provoz z vnější sítě), Viry, SPIT (spam over internet telephony), PHIT (phishing over IPT),
+přerušení služby útoky DoS, DDoS, neautorizované použití služby a výpadky napájení.
+Zabezpečit lze pomocí: Řízení přístupu k síťovému médiu technologií 802.1x, oddělení hlasového
+provozu pomocí VLAN (umožňuje logicky oddělit jednotlivé rámce na úrovni Ethernetu a portů
+přepínače, přestože se hlasový přenos přenáší fyzicky po stejné kabeláži jako ostatní datový přenos),
+zabezpečení spojení pomocí IPSec (zajišťuje zabezpečení na úrovni síťové vrstvy pomocí protoklů AH
+a ESP. Lze vyvořit virtuální privátní sítě, umožňující bezpečný datový přenos přes nezabezpečené sítě)
+a Secure RTP (rozšíření RTP protokolu pro zajištění důvěryhodnosti, autentizaci a ochranu proti
+podvržení přenosů RTP a RTCP).

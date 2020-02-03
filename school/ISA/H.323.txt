@@ -1,0 +1,17 @@
+Doporučení ITU-T popisující terminály a další součásti, které poskytují služby pro multimediální
+komunikaci v paketově orientovaných sítích, v nichž nemusí být garantovaná kvalita služeb.
+Specifikuje součásti vzájemně spolupracující v H.323 prostředí. Ty jsou terminál, gateway, gatekeeper
+a multipoint control unit (MCU).
+Terminál - koncové zařízení, zajišťuje obousměrnou komunikaci v reálném čase s jiným koncovým
+zařízením, bránou (gateway) nebo MCU. Součásti terminálu - videokamera, zobrazovací plocha,
+mikrofon, reproduktory, kodek, uživatelské rozhraní.
+MCU - umožňuje pořádat vícebodové videokonference, přijímá a přeposílá streamy, přijímá a
+dekóduje příchozí streamy v různých formátech a vytváří příslušný výstupní stream pro koncové uzly,
+streamy mohou být zasílány asymetricky. Continuos presence - zobrazení 2 a více účastníků
+konference současně, Voice-activated switched mode - obraz zasílán v závislosti na hlasitosti
+příchozího audia na MCU.
+Gateway - koncové zařízení v síti, které obykle umožňuje obousměrnou komunikaci v reálném čase
+mezi H.323 terminály na paketově orientované sítí a jinými ITU terminály na síti s přepínáním okruhů.
+Gatekeeper - volitelná součást H.323 architektury, poskytuje služby pro překlad čísel koncových uzlů
+na IP adresy, řízení velikosti datových toků, řízení přístupu a komunikace s ostatními gatekeepery
+v síti.

@@ -1,0 +1,1 @@
+Internet Corporation for Assigned Names and Numbers obsahuje oddělení IANA - Internet Assigned Numbers Authority, které spravuje adresy a DNS.

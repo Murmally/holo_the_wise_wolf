@@ -1,0 +1,11 @@
+Slouží k řízeni toku dat, zejména pro rozložení provozu a také pro ořezání. Vnutí vstupnímu provozu,
+který je tvořený obvykle nepravidelně přicházejícími shluky dat, konstantní přenosovou rychlost.
+Aneb vyhladá vstupní provoz na tok se stálým výstupem. Pakety nejsou posílány vyšší rychlostí, než je
+povolená. Velikost vědra ohraničuje maximální rychlost. Pokud nic ve frontě (vědru) není, rychlost je
+nulová. Pokud přichází nové pakety rychleji, než je rychlost na výstupu, tak se fronta (vědro) zaplňuje,
+a pokud je plné, tak se pakety navíc, co se nevlezou do fronty (vědra), zahodí. Vědro je
+implementováno jako FIFO fronta s časovačem a čítačem.
+Velikost prvního paketu ve frontě se porovná s hodnotou čítače, pokud je hodnota čítače větší, tak se
+sníží o velikost paketu a paket se přepošle. Pokud by byl paket větší, tak přenos zastaven na sekundu
+a čeká se na vypršení časovače a inkrementaci čítače. Čítač se inkrementuje každou sekundu
+(vypršení časovače). Pokud se nově příchozí paket nevejde do fronty, tak se zahodí.

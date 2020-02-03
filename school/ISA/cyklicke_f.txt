@@ -1,0 +1,7 @@
+Řeší vyhladovění. Cyklicky stejný počet paketů je odebírán z každé fronty, řazení do front dle priority.
+Upřednostňovány toky s většími pakety. Proto jsou často užívány spravedlivé fronty (zvláštním typem
+cyklických front), počet paketů z jednotlivých front je normalizován na délku paketů.
+V jednom cyklu se odebere z každé fronty stejný počet paketů či bitů. Pokud je rychlost linky R, tak
+při n frontách je rychlost zpracování toku R/n bitů za sekundu. Pokud nejsou všechny fronty plně
+obsazené, rychlost bude větší. Rychlost však neklesne pod tuto hodnotu. Zaručení, že nějaká fronta
+nemůže být opakovaně předbíhána. Počet toků se dynamicky mění.

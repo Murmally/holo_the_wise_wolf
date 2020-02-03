@@ -1,0 +1,1 @@
+Posloupnost paketů mající společnou vlastnost a procházející bodem pozorování za určitý časový interval

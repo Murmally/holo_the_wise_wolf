@@ -11,7 +11,6 @@ require 'logger'
 OWNER_ID = 328207275758059520
 Bajkar = 358337749000126471
 
-bot = Discordrb::Commands::CommandBot.new token: 'NjY1MTA1MDIwNzM1NDU1MjUz.Xhgx2A.zypezMFKFDWXPmn1v0eQ9LW2iYU', prefix: 'h!'
 file = File.open('log.txt', File::WRONLY | File::APPEND)
 $log = Logger.new(file, formatter: proc{ |severity, datetime, progname, msg| 
     "#{severity} #{datetime} || #{msg}\n"

@@ -1,4 +1,4 @@
-# TODO: logovani zprav se zminkou o Holovi
+# TODO: formatovani helpu (Embed)
 # TODO: logovani zpusobu pouzivani bota
 # TODO: presunout globalni promenne a perzistentni data do statickych trid
 # TODO: strawpoll
@@ -423,14 +423,6 @@ def test_pastas
     end
   end
   return res
-end
-
-bot.message(contains: /breathes in/) do |event|
-  if rand(0..1) == 0
-    event.respond "||nigger||"
-  else
-    event.respond "||ginger||"
-  end
 end
 
 bot.message(contains: /dobrou noc holo/i) do |event|

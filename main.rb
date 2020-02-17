@@ -2,30 +2,27 @@
 # TODO: strawpoll
 # TODO: perhaps
 
-require 'discordrb'
-require 'logger'
+
+require_relative 'init'
+require_relative 'help'
+require_relative 'school_related'
+require_relative 'random_features'
+require_relative 'big_boi_features' # stuff that is not meant for public's eyes
 
 
-$bot = Discordrb::Commands::CommandBot.new token: XXX, prefix: 'h!'
-file = File.open('log.txt', File::WRONLY | File::APPEND)
-$log = Logger.new(file, formatter: proc{ |severity, datetime, progname, msg| 
-    "#{severity} #{datetime} || #{msg}\n"
-})
-
-personal_file = File.open('holo_mentions.txt', File::WRONLY | File::APPEND)
-$personal_log = Logger.new(personal_file, formatter: proc{|severity, datetime, progname, msg|
-    "#{datetime} || #{msg}\n"
-})
-
+$bot = init_bot()
+$log = init_log()
 
 
 # To avoid repeatedly searching DC servers' emojis
 class SavedEmojis
-	attr_reader :hahaa, :coolStory
+	attr_reader :hahaa, :coolStory, :abdoHappy, :cryabdo
 
 	def initialize
 		@hahaa = $bot.find_emoji("HAhaa")
 		@coolStory = $bot.find_emoji("CoolStory")
+		@abdoHappy = $bot.find_emoji("AbdoHappy")
+		@cryabdo = $bot.find_emoji("cryabdo")
 		puts "SavedEmojis initialized"
 	end
 end
@@ -39,6 +36,10 @@ class UserIDs
 	def self.bajkar
 		return 358337749000126471
 	end
+
+	def self.abdo_laziz
+		return 202420992801243136
+	end
 end
 
 
@@ -47,58 +48,30 @@ $last_copypasta = ""
 $last_gde_body = Time.now - 60
 
 
-
 $bot.ready() do |event|
 	$EmojiManager = SavedEmojis.new
-	$UserIdManager = UserIDs.new
 end
 
-$bot.command(:FIT_help) do |event|
-  event << "`h!get_definition [SUBJECT] [term]` => get definition, eg. `h!get_definition ISA Tok`"
-  event << "`h!add_definition [SUBJECT] [term] [definition...]` => add definition to a subject (Helper/Mod only)"
-  event << "`h!add_subject [SUBJECT]` => add a subject to list of subjects, eg. `h!add_subject IZP` (Helper/Mod only)"
-  event << "`h!subject_definitions [SUBJECT]` => get all definitions from given subject, eg. `h!subject_definitions IZP`"
-  event << "`h!subjects` => get list of subjects\n"
-
-  event << "h!FIT_zaznamy_link"
-  event << "h!FIT_video_link\n"
-
-  event << "h!help => list of several useless (although mildly entertaining) commands"
-end
+# Help-related commands
+$bot.command(:help) 		    { |event| Help.handle_help(event) }
+$bot.command(:help_school) 	{ |event| Help.handle_school_help(event) }
+$bot.command(:help_random) 	{ |event| Help.handle_help_random(event) }
+$bot.command(:big_boi_help) { |event| Help.handle_big_boi_help(event, UserIDs.owner) }
 
 
-$bot.command(:help) do |event|
-  event << "h!pasta => get random copypasta"
-  event << "h!pastas => list of all copypastas"
-  event << "h!set_quote => set this bot's quote"
-  event << "h!quote => get this bot's quote"
-  event << "h!why_ruby => the decision-making behind choosing Ruby\n"
-  event << "h!karma"
-  event << "h!cbt"
-  event << "h!exams"
-  event << "h!linux"
-  event << "h!racism"
-  event << "h!flip"
-  event << "h!JonLajoie"
-  event << "h!somebody"
-  event << "h!gender"
-end
+# School-related commands
+$bot.command(:add_subject) 		     { |event, subject| School_related.handle_add_subject(event, subject) }
+$bot.command(:subjects) 		       { |event| School_related.handle_subjects(event) }
+$bot.command(:get_definition) 	   { |event| School_related.handle_get_definition(event) }
+$bot.command(:FIT_video_link) 	   { |event| School_related.handle_FIT_video_link(event) }
+$bot.command(:FIT_zaznamy_link)    { |event| School_related.handle_FIT_zaznamy_link(event) }
+$bot.command(:subject_definitions) { |event, subject|
+ 	School_related.handle_subject_definitions(event, subject) }
+$bot.command(:add_definition) 	   { |event, subject, name, *args| 
+	School_related.handle_add_definition(event, subject, name, *args, $log) }
 
-$bot.command(:big_boi_help) do |event|
-  if event.author.id != UserIdManager.owner
-    return nil
-  end
-  event << "h!windmill"
-  event << "h!whitelist"
-  event << "h!JonLajoie"
-  event << "h!bajkalarka"
-  event << "h!somebody"
-  event << "h!set_log"
-  event << "h!kybl"
-  event << "h!plna_taska"
-  event << "h!gender"
-end
 
+# TODO
 $bot.reaction_add(emoji: "\u2b50") do |event|
   return nil
   if Discordrb::Channel.load_message(event.message.id)
@@ -112,20 +85,13 @@ $bot.reaction_add(emoji: "\u2b50") do |event|
     embed_msg = Discordrb::Webhooks::Embed.new(title: event.message.author.name, description: event.message)
     bot.send_message(672804971464491008, "", false, embed_msg)
   else
-    puts "kokot"
     nil
   end
 end
 
-# TODO
-$bot.command(:blacklist) do |event, user|
-  whitelist = File.read("./whitelist.txt")
-  id = get_userid_from_tag(user)
-  
-end
-
+# Add priviledges to user
 $bot.command(:whitelist) do |event, user|
-  if event.author.id != UserIdManager.owner
+  if event.author.id != UserIDs.owner
     event.respod "Not permitted"
     return nil
   end
@@ -135,91 +101,19 @@ $bot.command(:whitelist) do |event, user|
   event.respond "User has been added to whitelist"
 end
 
-$bot.command(:get_definition) do |event, subject, name|
-  begin
-    event.respond File.read("./school/#{subject}/#{name}.txt")
-  rescue
-    event.respond "Definition not found."
-  end
-end
-
-$bot.command(:add_definition, usage: 'add_definition [subject] [name] [args]') do |event, subject, name, *args|
-  authorized_roles = ["Mod", "Helper"]
-  if !check_for_role_by_rolenames(event.author, authorized_roles)
-    $log.info create_log_message("add_definition_attempt", event)
-    event.respond "You do not have permissions."
-    return nil
-  end
-
-  $log.info create_log_message("add_definition", event)
-  begin
-    file = File.open("./school/#{subject}/#{name}.txt", "w+")
-    file.write(args.join(' '))
-    file.close
-    event.respond "Definition of #{name} has been added to #{subject} library."
-  rescue
-    event.respond "Subject not found, try `h!subjects`"
-  end
-end
-
-$bot.command(:add_subject) do |event, subject|
-  if Dir.exists? "./school/#{subject}"
-    event.respond "Subject already exists"
-    return nil
-  else
-    Dir.mkdir "./school/#{subject}"
-    event.respond "Subject added"
-  end
-end
-
-$bot.command(:subject_definitions) do |event, subject|
-  msg = ""
-  if !Dir.exists? "./school/#{subject}"
-    event.respond "No such subject found, try h!subjects"
-    return nil
-  end
-  content = Dir["./school/#{subject}/**.txt"]
-  event << "#{subject} definitions:"
-  content.each do |file|
-    event << "#{file.split(".txt")[-1].split("/")[-1]}"
-  end
-  nil
-end
-
-
-$bot.command(:subjects) do |event|
-  dirs = Dir.glob("**/school/*").select {|f| File.directory? f}
-  dirs.each do |file|
-    event << "#{file.split("/")[-1]}"
-  end
-  nil
-end
-
-$bot.command(:FIT_zaznamy_link) do |event|
-  $log.info create_log_message("FIT_zaznamy_link", event)
-  event.respond "https://drive.google.com/drive/folders/1YtEOsXAUEZDzh5WwAmml9g8FT7iHgWcG"
-end
-
-$bot.command(:FIT_video_link) do |event|
-  $log.info create_log_message("FIT_video_link", event)
-  event.respond "video1.fit.vutbr.cz"
-end
-
-
 $bot.command(:somebody) do |event|
   event.respond "<https://youtu.be/L_jWHffIx5E?t=36>"
 end
 
-$bot.command(:diag) do |event|
-  $log.info create_log_message("diag", event)
-  if test_pastas
-    event.respond "Copypasta library seems to be OK!"
-  else
-    event.respond "Certain copypasta in library is too long!"
-  end
+$bot.message(from: UserIDs.abdo_laziz, contains: /so ?sad ?a?bout ?th[ia][st]/i) do |event|
+	event.message.create_reaction($EmojiManager.cryabdo)
 end
 
-$bot.message(from: ["Bajkař", "ElDandee"]) do |event|
+$bot.message(from: UserIDs.abdo_laziz, contains: /so ?happy ?a?bout ?th[ia][st]/i) do |event|
+	event.message.create_reaction($EmojiManager.abdoHappy)
+end
+
+$bot.message(from: UserIDs.bajkar) do |event|
   event.message.create_reaction($EmojiManager.coolStory)
   event.message.create_reaction($EmojiManager.hahaa)
 end
@@ -247,31 +141,12 @@ $bot.command(:bajkalarka) do |event|
 end
 
 $bot.command(:karma) do |event|
-  $log.info create_log_message("karma", event)
   msg = "Sice nejsi nejkrásnější, ani nejchytřejší, ani dobrý sportovec, ale my tě máme stejně rádi :heart:\n"
   event.respond msg
 end
 
-$bot.command(:racism) do |event|
-  $log.info create_log_message("racism", event)
-  event.respond "Racism bad mmmkay"
-end
-
 $bot.command(:ping) do |event|
-  $log.info "ping || #{Time.now - event.timestamp} || #{event.author.name} || #{event.content}"
   event.respond "#{Time.now - event.timestamp} s"
-end
-
-$bot.command(:set_log) do |event, new_log|
-  if event.author.id != UserIdManager.owner
-    return nil
-  end
-  $log.info create_log_message("new_log", event)
-  $log.close
-  file = File.open(new_log, "w+")
-  $log = Logger.new(file)
-  $log.info create_log_message("new_log", event)
-  nil
 end
 
 $bot.command(:pastas) do |event|
@@ -313,23 +188,10 @@ $bot.command(:exams) do |event|
   event.respond File.read("./copypastas/exams.txt")
 end
 
-$bot.command(:cbt) do |event|
-  $log.info create_log_message("cbt", event)
-  event.respond File.read("./copypastas/cbt.txt")
-end
 
 $bot.command(:linux) do |event|
   $log.info create_log_message("linux interjection", event)
   event.respond File.read("./copypastas/gnu_interjection.txt")
-end
-
-$bot.command(:kybl) do |event|
-  event.respond "<https://www.youtube.com/watch?v=ovolaH4gMOk>"
-end
-
-$bot.message(contains: /hol[ao]/i) do |event|
-  puts "Someone mentioned you! || server: #{event.server.name}, in: #{event.channel.name}, from: #{event.author.name} => #{event.content}"
-  $personal_log.info "server: #{event.server.name}, in: #{event.channel.name}, from: #{event.author.name} => #{event.content}"
 end
 
 $bot.command(:JonLajoie) do |event|
@@ -396,27 +258,8 @@ def create_log_message(command, event)
   msg = "#{command} || #{event.author.name} || #{event.content}"
 end
 
-def init_reaction(text, bot, server)
-  #data = {:name => text, :animated => false}
-  #emoji = Emoji.new(data, bot, server)
-end
-
-def test_pastas
-  pasta_dir = Dir["./copypastas/**/*.txt"]
-  res = true
-  for file in pasta_dir
-    current = File.read(file)
-    if current.length > 2000
-      res = false
-      puts "#{file} is too big! #{current.length}/2000 chars."
-    end
-  end
-  return res
-end
-
-
 $bot.message(contains: /dobrou noc holo/i) do |event|
-  if event.author.id != UserIdManager.owner
+  if event.author.id != UserIDs.owner
     return
   end
   event.respond "Dobrou noc"
@@ -425,11 +268,6 @@ end
 
 $bot.message(contains: [/thank you holo/i, /thanks holo/i, /d[ií]ky holo/i, /d[eě]kuj[iu] holo/i]) do |event|
 	event.message.react("❤️")
-end
-
-
-$bot.command(:plna_taska) do |event|
-  event.respond "<https://www.youtube.com/watch?v=5xQdOshDUOw>"
 end
 
 $bot.command(:gender) do |event|
@@ -449,7 +287,7 @@ $bot.message(contains: [/am i right\??/i, /amirite\??/i]) do |event|
 end
 
 $bot.message(contains: /nem[aá]m pravdu\??/i) do |event|
-  if event.author.id == UserIdManager.owner  # in case it's me
+  if event.author.id == UserIDs.owner  # in case it's me
     if event.content.match? (/nemám pravdu?/i)
       event.respond "Ne, nemáš pravdu."
     else
@@ -474,5 +312,6 @@ $bot.command(:random, min_args: 0, usage: 'random [min/max] [max]') do  |event, 
     rand
   end
 end
+
 
 $bot.run

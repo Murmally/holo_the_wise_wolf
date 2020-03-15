@@ -1,0 +1,508 @@
+|| ping || 0.1249867 || #<Discordrb::User:0x0000000006af65a8> || h!ping ||
+I, [2020-01-13T00:50:40.761865 #14084]  INFO -- : || ping || 0.120834 || #<Discordrb::User:0x0000000006c0db58> || h!ping ||
+
+I, [2020-01-13T00:53:57.091533 #11876]  INFO -- : || ping || 0.2065073 || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!ping ||
+
+I, [2020-01-13T00:54:22.060071 #11876]  INFO -- : || ping || 0.1270543 || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!ping ||
+
+I, [2020-01-13T00:54:37.893650 #11876]  INFO -- : || ping || 0.1956058 || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!ping ||
+
+I, [2020-01-13T00:55:35.585054 #10092]  INFO -- : || ping || 0.1670272 || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!ping ||
+
+INFO || 2020-01-13 01:03:53 +0100 || || ping || 0.9870268 || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!ping ||
+
+INFO || 2020-01-13 01:04:15 +0100 || || ping || 0.2300221 || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!ping ||
+
+INFO 2020-01-13 01:22:09 +0100 || pasta || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!pasta
+INFO 2020-01-13 01:26:39 +0100 || pasta || Toaster || h!pasta
+INFO 2020-01-13 01:26:42 +0100 || integrovane_sluzby || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!integrovane_sluzby
+INFO 2020-01-13 01:32:03 +0100 || new_log || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!new_log ayylien
+INFO 2020-01-13 01:34:29 +0100 || pasta || Toaster || h!pasta
+INFO 2020-01-13 01:35:32 +0100 || exams || wex || h!exams
+INFO 2020-01-13 01:37:19 +0100 || help || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!help
+INFO 2020-01-13 01:39:20 +0100 || ping || 0.2151908 || Dajvid || h!ping
+INFO 2020-01-13 02:06:33 +0100 || ping || 0.1264559 || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!ping
+INFO 2020-01-13 02:13:28 +0100 || racism || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!racism
+INFO 2020-01-13 02:14:37 +0100 || help || Dajvid || h!help
+INFO 2020-01-13 02:14:49 +0100 || gibabay || molitann || h!ga
+INFO 2020-01-13 02:15:14 +0100 || voip_bezp || Dajvid || h!voip_bezp
+INFO 2020-01-13 02:15:37 +0100 || vahove_fronty || Oťas the Noťas || h!vahove_fronty
+INFO 2020-01-13 02:21:31 +0100 || ping || 0.1310137 || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!ping
+INFO 2020-01-13 02:29:05 +0100 || ping || 0.2247865 || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!ping
+INFO 2020-01-13 02:30:45 +0100 || RTP || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!RTP je sice kratsi, ale zase wall of text
+INFO 2020-01-13 15:05:06 +0100 || linux interjection || Véči || h!linux
+INFO 2020-01-13 15:23:04 +0100 || help || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!help
+INFO 2020-01-13 15:26:52 +0100 || help || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!help
+INFO 2020-01-13 15:27:29 +0100 || racism || Venny || h!racism
+INFO 2020-01-13 15:27:44 +0100 || gibabay || Venny || h!ga
+INFO 2020-01-13 16:41:43 +0100 || gde body || Meddea_old_star || Gde body <:monkaHmm:587959701061369866>
+INFO 2020-01-13 16:42:25 +0100 || gde body || Gojin (Pašerák) || Gde body
+INFO 2020-01-13 16:45:53 +0100 || body gde || olok || body gde
+INFO 2020-01-13 16:46:01 +0100 || gde body || olok || gde body
+INFO 2020-01-13 16:46:07 +0100 || gde body || olok || gDe body
+INFO 2020-01-13 16:46:13 +0100 || gde body || olok || gDE BOdy
+INFO 2020-01-13 16:47:10 +0100 || gde body || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || GDE BODY me vysira
+INFO 2020-01-13 16:51:49 +0100 || gde body || olok || gde body nevíte?
+INFO 2020-01-13 16:52:36 +0100 || gde body || olok || myslíte že gde body?
+INFO 2020-01-13 16:52:58 +0100 || gde body || olok || zajímavé, jsem myslel, že to máš jen tupě na "gde body", ale očividně funguje dobře <:PogChamp:530356296239677440>
+INFO 2020-01-13 16:53:12 +0100 || gde body || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || ono to jenom hleda tu frazi `gde body` kdekoliv v textu
+INFO 2020-01-13 16:53:36 +0100 || body gde || Greav || body gde?
+INFO 2020-01-13 18:22:35 +0100 || LDAP || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!LDAP
+INFO 2020-01-13 18:50:01 +0100 || linux interjection || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!linux
+INFO 2020-01-13 18:50:59 +0100 || help || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!help
+INFO 2020-01-13 18:51:02 +0100 || linux interjection || Abdo Laziz || h!linux
+INFO 2020-01-13 19:03:18 +0100 || gibabay || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!ga
+INFO 2020-01-13 19:48:08 +0100 || gde body || tlapka || <@!358337749000126471> Neviděl si ITU room gde body? <:HAhaa:358329530668154880>
+INFO 2020-01-13 19:48:09 +0100 || gde body || Redak || <@!358337749000126471> gde body
+INFO 2020-01-13 19:48:35 +0100 || gde body || Redak || ale to neodpovídáš na otázku gde body <:monkaHmm:587959701061369866>
+INFO 2020-01-13 19:48:48 +0100 || body gde || Šmoula || body gde
+INFO 2020-01-13 19:49:49 +0100 || gde body || ElDandee || gde body a body gde <:honzikPika:531230731100225566>
+INFO 2020-01-13 19:49:49 +0100 || body gde || ElDandee || gde body a body gde <:honzikPika:531230731100225566>
+INFO 2020-01-13 19:50:06 +0100 || gde body || olok || gde body gde body
+INFO 2020-01-13 19:50:06 +0100 || body gde || olok || gde body gde body
+INFO 2020-01-13 19:50:13 +0100 || gde body || olok || gde body gde body gde body
+INFO 2020-01-13 19:50:13 +0100 || body gde || olok || gde body gde body gde body
+INFO 2020-01-13 19:50:13 +0100 || gde body || Šmoula || ```c
+gde body
+```
+INFO 2020-01-13 19:50:21 +0100 || gde body || Redak || gde body gde
+INFO 2020-01-13 19:50:21 +0100 || body gde || Redak || gde body gde
+INFO 2020-01-13 19:50:39 +0100 || gde body || olok || co by se stalo kdyby ten bot psal "gde body"? zacyklil by se? <:monkaHmm:587959701061369866>
+INFO 2020-01-13 19:50:43 +0100 || gde body || Redak || body gde body
+INFO 2020-01-13 19:50:43 +0100 || body gde || Redak || body gde body
+INFO 2020-01-13 19:51:25 +0100 || ping || 1.0362726 || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!ping
+INFO 2020-01-13 19:51:28 +0100 || gde body || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || gde body
+INFO 2020-01-13 19:51:39 +0100 || gde body || olok || gde body
+INFO 2020-01-13 20:24:12 +0100 || ISA_help || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!ISA_help
+INFO 2020-01-13 20:24:21 +0100 || DNS_SEC || Venny || h!DNS_SEC
+INFO 2020-01-13 20:26:08 +0100 || DNS_SEC || ꧁♡✿🌈Good Boi Holo🌈✿♡꧂ || h!DNS_SEC
+INFO 2020-01-13 20:29:15 +0100 || ping || 0.9743362 || Holo's Papa || h!ping
+INFO 2020-01-13 20:56:37 +0100 || H.323 || Smradoch || h!H323
+INFO 2020-01-13 21:16:53 +0100 || leaky_bucket || neviem || h!leaky_bucket
+INFO 2020-01-13 21:32:02 +0100 || help || Dajvid || h!help
+INFO 2020-01-13 21:32:14 +0100 || exams || Dajvid || h!exams
+INFO 2020-01-13 21:32:18 +0100 || racism || Neocon || h!racism
+INFO 2020-01-13 21:59:06 +0100 || help || ElDandee || h!help
+INFO 2020-01-13 21:59:23 +0100 || pasta || ElDandee || h!pasta
+INFO 2020-01-13 22:58:35 +0100 || gde body || RockStar1337 || gde body?
+INFO 2020-01-13 23:07:29 +0100 || ping || 0.9844599 || Holo's Papa || h!ping
+INFO 2020-01-13 23:59:52 +0100 || rozsazeni || Holo's Papa || h!rozsazeni
+INFO 2020-01-14 00:05:05 +0100 || ping || 3.3172894 || ElDandee || h!ping
+INFO 2020-01-14 00:07:47 +0100 || rozsazeni || ElDandee || h!rozsazeni
+INFO 2020-01-14 00:07:59 +0100 || rozsazeni || Holo's Papa || h!rozsazeni
+INFO 2020-01-14 00:09:36 +0100 || ISA_help || Holo's Papa || h!ISA_help
+INFO 2020-01-14 00:10:19 +0100 || rozsazeni || ElDandee || h!rozsazeni
+INFO 2020-01-14 00:11:13 +0100 || why_ruby || Holo's Papa || h!why_ruby
+INFO 2020-01-14 00:11:36 +0100 || why_ruby || Holo's Papa || h!why_ruby <:HAhaa:358329530668154880>
+INFO 2020-01-14 00:13:26 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-14 00:13:30 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-14 00:23:31 +0100 || rozsazeni-attempt || Holo's Papa || h!rozsazeni
+INFO 2020-01-14 00:24:16 +0100 || rozsazeni-attempt || Holo's Papa || h!rozsazeni
+INFO 2020-01-14 00:24:20 +0100 || rozsazeni-attempt || Holo's Papa || h!rozsazeni
+INFO 2020-01-14 00:34:15 +0100 || help || olok || h!help
+INFO 2020-01-14 00:34:48 +0100 || ping || 0.9767013 || Holo's Papa || h!ping
+INFO 2020-01-14 00:38:55 +0100 || gde body || olok || h!set gde body
+INFO 2020-01-14 00:39:22 +0100 || quote || Holo's Papa || h!quote
+INFO 2020-01-14 00:39:30 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:39:37 +0100 || gde body || olok || h!set_quote gde body
+INFO 2020-01-14 00:39:40 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:39:45 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:39:46 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:39:47 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:41:22 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:41:26 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:44:37 +0100 || quote || Holo's Papa || h!quote
+INFO 2020-01-14 00:45:02 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:45:04 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:45:11 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:45:13 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:45:14 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:45:15 +0100 || set_quote || Holo's Papa || h!xd
+INFO 2020-01-14 00:45:15 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:45:21 +0100 || set_quote || Holo's Papa || h!xd ay ylmao
+INFO 2020-01-14 00:45:24 +0100 || quote || Holo's Papa || h!quote
+INFO 2020-01-14 00:45:41 +0100 || set_quote || Holo's Papa || h!xd olok je nenechava pica
+INFO 2020-01-14 00:45:44 +0100 || quote || Holo's Papa || h!quote
+INFO 2020-01-14 00:45:46 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:45:54 +0100 || set_quote || Holo's Papa || h!xd <@!241415544849432576>
+INFO 2020-01-14 00:45:54 +0100 || gde body || olok || h!set_quote gde body
+INFO 2020-01-14 00:45:56 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:45:57 +0100 || quote || Holo's Papa || h!quote
+INFO 2020-01-14 00:45:59 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:45:59 +0100 || quote || Holo's Papa || h!quote
+INFO 2020-01-14 00:46:04 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:46:05 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:46:05 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:46:06 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:46:07 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:46:14 +0100 || gde body || olok || h!set_quote gde body
+INFO 2020-01-14 00:46:15 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:46:16 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:46:27 +0100 || set_quote || Holo's Papa || h!xd nesnasim FIT
+INFO 2020-01-14 00:46:29 +0100 || quote || Holo's Papa || h!quote
+INFO 2020-01-14 00:46:46 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:46:49 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:47:11 +0100 || quote || olok || h!quote
+INFO 2020-01-14 00:51:12 +0100 || set_quote || Holo's Papa || h!new_quote aodwi j
+INFO 2020-01-14 00:53:59 +0100 || set_quote || Holo's Papa || h!new_quote muj krasny quote
+INFO 2020-01-14 00:54:02 +0100 || quote || Holo's Papa || h!quote
+INFO 2020-01-14 00:54:26 +0100 || set_quote || Holo's Papa || h!new_quote gde body
+INFO 2020-01-14 00:54:26 +0100 || gde body || Holo's Papa || h!new_quote gde body
+INFO 2020-01-14 00:54:30 +0100 || quote || Holo's Papa || h!quote
+INFO 2020-01-14 00:54:53 +0100 || set_quote || Holo's Papa || h!new_quote Ruby je big dicc lang
+INFO 2020-01-14 00:56:33 +0100 || set_quote || Holo's Papa || h!set_quote jsem pepega?
+INFO 2020-01-14 00:56:48 +0100 || set_quote || Holo's Papa || h!set_quote <:rtzW:364662200545050625> <:FeelsGoodMan:385510431462129665> <:pepeGun:359972722614468609>
+INFO 2020-01-14 00:56:50 +0100 || quote || Holo's Papa || h!quote
+INFO 2020-01-14 00:56:56 +0100 || help || Holo's Papa || h!help
+INFO 2020-01-14 00:57:04 +0100 || linux interjection || Neocon || h!linux
+INFO 2020-01-14 00:57:10 +0100 || karma || Neocon || h!karma
+INFO 2020-01-14 00:59:38 +0100 || IFJ_help || Holo's Papa || h!IFJ_help
+INFO 2020-01-14 00:59:46 +0100 || typy_KA || Holo's Papa || h!typy_KA
+INFO 2020-01-14 01:00:12 +0100 || IFJ_help || Holo's Papa || h!IFJ_help
+INFO 2020-01-14 01:01:11 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-14 01:01:56 +0100 || IFJ_help || Holo's Papa || h!IFJ_help
+INFO 2020-01-14 01:02:53 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-14 01:03:03 +0100 || pasta || Neocon || h!pasta
+INFO 2020-01-14 01:03:09 +0100 || pasta || peter || h!pasta
+INFO 2020-01-14 01:09:07 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-14 01:10:02 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-14 01:11:15 +0100 || diag || Holo's Papa || h!diag
+INFO 2020-01-14 01:23:00 +0100 || ping || 1.0068964 || Holo's Papa || h!ping
+INFO 2020-01-14 01:27:51 +0100 || set_quote || Holo's Papa || h!set_quote A s touhle bombou se pro dnesek loucime
+INFO 2020-01-14 01:28:26 +0100 || set_quote || Holo's Papa || h!set_quote A s touhle bombou se pro dnesek loucime
+INFO 2020-01-14 01:28:34 +0100 || quote || Holo's Papa || h!quote
+INFO 2020-01-14 01:29:28 +0100 || set_quote || Holo's Papa || h!set_quote blawdai awd liawj jli awjli
+INFO 2020-01-14 01:29:34 +0100 || quote || Holo's Papa || h!quote
+INFO 2020-01-14 01:36:23 +0100 || help || Holo's Papa || h!help
+INFO 2020-01-14 01:36:28 +0100 || ISA_help || Holo's Papa || h!ISA_help
+INFO 2020-01-14 01:36:31 +0100 || IFJ_help || Holo's Papa || h!IFJ_help
+INFO 2020-01-14 01:38:51 +0100 || set_quote || Neocon || h!set_quote ara ara
+INFO 2020-01-14 01:39:00 +0100 || quote || Neocon || h!quote
+INFO 2020-01-14 01:39:23 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-14 01:39:27 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-14 01:41:16 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-14 01:41:19 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-14 01:41:20 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-14 01:41:22 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-14 01:42:01 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-14 01:42:02 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-14 01:42:04 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-14 01:42:06 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-14 01:42:07 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-14 01:42:43 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-14 01:43:44 +0100 || linux interjection || Holo's Papa || h!linux
+INFO 2020-01-14 01:44:10 +0100 || linux interjection || Holo's Papa || h!linux
+INFO 2020-01-14 01:45:02 +0100 || set_quote || Holo's Papa || h!set_quote Neocon je weeb
+INFO 2020-01-14 01:46:15 +0100 || set_quote || Holo's Papa || h!set_quote adwoi j
+INFO 2020-01-14 01:48:53 +0100 || bezkontextova_gramatika || Holo's Papa || h!bezkontextova_gramatika
+INFO 2020-01-14 01:49:22 +0100 || bezkontextova_gramatika || Holo's Papa || h!bezkontextova_gramatika
+INFO 2020-01-14 01:52:43 +0100 || bezkontextova_gramatika || Holo's Papa || h!bezkontextova_gramatika
+INFO 2020-01-14 01:53:07 +0100 || set_quote || Holo's Papa || h!set_quote I hate niggers
+INFO 2020-01-14 01:53:11 +0100 || quote || Holo's Papa || h!quote
+INFO 2020-01-14 01:57:43 +0100 || quote || Holo's Papa || h!quote
+INFO 2020-01-14 01:58:17 +0100 || help || Holo's Papa || h!help
+INFO 2020-01-14 01:58:31 +0100 || gibabay || Holo's Papa || h!ga
+INFO 2020-01-14 02:33:39 +0100 || help || Holo's Papa || h!help
+INFO 2020-01-14 02:33:42 +0100 || racism || Holo's Papa || h!racism
+INFO 2020-01-14 03:04:55 +0100 || cbt || Holo's Papa || h!cbt
+INFO 2020-01-14 03:05:00 +0100 || exams || Holo's Papa || h!exams
+INFO 2020-01-14 03:05:20 +0100 || exams || Holo's Papa || h!exams
+INFO 2020-01-14 03:25:35 +0100 || gibabay || Holo's Papa || h!ga
+INFO 2020-01-14 03:25:46 +0100 || gibabay || Holo's Papa || h!ga
+INFO 2020-01-14 03:36:46 +0100 || quote || Holo's Papa || h!quote
+INFO 2020-01-14 03:37:03 +0100 || set_quote || Holo's Papa || h!set_quote benis in bagina
+INFO 2020-01-14 03:37:07 +0100 || quote || Holo's Papa || h!quote
+INFO 2020-01-14 13:25:03 +0100 || set_quote || Holo's Papa || h!set_quote olok je down
+INFO 2020-01-14 13:25:07 +0100 || quote || Holo's Papa || h!quote
+INFO 2020-01-14 14:48:32 +0100 || KA_typy_jazyka || Holo's Papa || h!KA_typy_jazyka
+INFO 2020-01-14 16:19:27 +0100 || pasta || Šmoula || h!pasta
+INFO 2020-01-14 16:19:27 +0100 || help || Dajvid || h!help
+INFO 2020-01-14 16:19:47 +0100 || ISA_help || Dajvid || h!ISA_help
+INFO 2020-01-14 16:19:55 +0100 || RTP || Šmoula || h!RTP
+INFO 2020-01-14 16:19:56 +0100 || PGP || Dajvid || h!PGP
+INFO 2020-01-14 16:20:15 +0100 || PGP || Dajvid || h!PGP
+INFO 2020-01-14 16:20:24 +0100 || LDAP || Kateriska || h!LDAP
+INFO 2020-01-14 16:35:31 +0100 || bezkontextova_gramatika || Holo's Papa || h!bezkontextova_gramatika
+INFO 2020-01-14 16:40:43 +0100 || RTP || Holo's Papa || h!RTP
+INFO 2020-01-14 16:54:41 +0100 || PGP || neviem || h!PGP
+INFO 2020-01-14 18:01:16 +0100 || set_quote || Holo's Papa || h!set_quote Námrd
+INFO 2020-01-14 19:16:58 +0100 || protokol || menzáč || h!protokol
+INFO 2020-01-14 20:46:41 +0100 || help || Holo's Papa || h!help
+INFO 2020-01-14 20:48:09 +0100 || linux interjection || ElDandee || h!linux
+INFO 2020-01-14 20:50:04 +0100 || rozsazeni || Holo's Papa || h!rozsazeni
+INFO 2020-01-14 20:50:11 +0100 || rozsazeni-attempt || Holo's Papa || h!rozsazeni
+INFO 2020-01-14 20:51:08 +0100 || help || Holo's Papa || h!help
+INFO 2020-01-14 20:51:49 +0100 || karma || olok || h!karma
+INFO 2020-01-14 20:53:01 +0100 || gde body || Holo's Papa || ale chtel bych pridat aby to mutovalo za gde body
+INFO 2020-01-14 21:09:20 +0100 || set_quote || Holo's Papa || h!set_quote <:gasbutton:360776402871648256>
+INFO 2020-01-14 21:09:26 +0100 || quote || Holo's Papa || h!quote
+INFO 2020-01-14 21:10:10 +0100 || set_quote || Holo's Papa || h!set_quote :tomStare:
+INFO 2020-01-14 21:10:13 +0100 || quote || Holo's Papa || h!quote
+INFO 2020-01-14 21:26:17 +0100 || gde body || peter || gde body
+INFO 2020-01-14 21:27:13 +0100 || karma || peter || h!karma
+INFO 2020-01-14 21:28:13 +0100 || pasta || Holo's Papa || h!pasta at se nemusite morit se sitema <:HAhaa:358329530668154880>
+INFO 2020-01-14 21:34:28 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-14 21:35:44 +0100 || pasta || ElDandee || h!pasta
+INFO 2020-01-14 21:37:10 +0100 || pasta || ElDandee || h!pasta
+INFO 2020-01-14 21:38:53 +0100 || pasta || ElDandee || h!pasta
+INFO 2020-01-14 21:39:18 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-14 21:40:44 +0100 || pasta || ElDandee || h!pasta
+INFO 2020-01-14 21:42:37 +0100 || pasta || ElDandee || h!pasta
+INFO 2020-01-14 21:44:22 +0100 || IFJ_help || Holo's Papa || h!IFJ_help
+INFO 2020-01-14 21:45:21 +0100 || bezkontextova_gramatika || Holo's Papa || h!bezkontextova_gramatika
+INFO 2020-01-14 21:48:40 +0100 || CNF || Holo's Papa || h!CNF
+INFO 2020-01-14 21:50:41 +0100 || pasta || ElDandee || h!pasta
+INFO 2020-01-14 21:51:46 +0100 || IFJ_help || Holo's Papa || h!IFJ_help
+INFO 2020-01-14 21:51:50 +0100 || konecny_automat || Holo's Papa || h!konecny_automat
+INFO 2020-01-14 22:16:24 +0100 || ISA_help || Holo's Papa || h!ISA_help
+INFO 2020-01-14 22:32:40 +0100 || help || Holo's Papa || h!help
+INFO 2020-01-14 22:46:23 +0100 || vahove_fronty || Yumi || h!vahove_fronty
+INFO 2020-01-14 22:55:26 +0100 || ping || 0.0909304 || Holo's Papa || h!ping
+INFO 2020-01-14 22:56:34 +0100 || help || Holo's Papa || h!help
+INFO 2020-01-14 22:56:40 +0100 || FIT_zaznamy_link || Holo's Papa || h!FIT_zaznamy_link
+INFO 2020-01-14 23:15:59 +0100 || help || ElDandee || h!help
+INFO 2020-01-15 00:19:51 +0100 || set_quote || Holo's Papa || h!set_quote Gregr > Lengal
+INFO 2020-01-15 00:42:31 +0100 || strawpoll || Holo's Papa || h!strawpoll nejheczi_marka julia ta_du aiudwh
+INFO 2020-01-15 00:42:40 +0100 || strawpoll || Holo's Papa || h!strawpoll a awd jidwa j oji
+INFO 2020-01-15 01:07:03 +0100 || pasta || ElDandee || h!pasta
+INFO 2020-01-15 01:07:28 +0100 || pasta || ElDandee || h!pasta
+INFO 2020-01-15 01:07:34 +0100 || pasta || ElDandee || h!pasta
+INFO 2020-01-15 01:07:40 +0100 || pasta || ElDandee || h!pasta
+INFO 2020-01-15 01:09:06 +0100 || pasta || ElDandee || h!pasta
+INFO 2020-01-15 01:13:32 +0100 || help || molitann || h!help
+INFO 2020-01-15 01:13:48 +0100 || FIT_zaznamy_link || molitann || h!FIT_zaznamy_link
+INFO 2020-01-15 13:07:37 +0100 || set_quote || Holo's Papa || h!set_quote ISA zkouska ez
+INFO 2020-01-15 13:49:01 +0100 || gde body || peter || Gde body myslíš?
+INFO 2020-01-15 15:04:41 +0100 || help || olok || h!help
+INFO 2020-01-15 15:04:47 +0100 || racism || Šmoula || h!racism
+INFO 2020-01-15 15:04:50 +0100 || karma || Gojin (Pašerák) || h!karma
+INFO 2020-01-15 22:33:45 +0100 || IFJ_help || Holo's Papa || h!IFJ_help
+INFO 2020-01-15 22:33:56 +0100 || konecny_automat || Holo's Papa || h!konecny_automat
+INFO 2020-01-15 22:36:23 +0100 || rozsazeni || Cabbage || h!rozsazeni
+INFO 2020-01-15 22:38:20 +0100 || help || Holo's Papa || h!help
+INFO 2020-01-15 22:38:27 +0100 || IFJ_help || Holo's Papa || h!IFJ_help
+INFO 2020-01-15 22:38:51 +0100 || GNF || Cabbage || h!GNF - Greibachové normální forma
+INFO 2020-01-15 22:38:58 +0100 || bezkontextova_gramatika || Holo's Papa || h!bezkontextova_gramatika
+INFO 2020-01-16 01:50:17 +0100 || IFJ_help || Holo's Papa || h!IFJ_help
+INFO 2020-01-16 02:12:07 +0100 || IFJ_help || Holo's Papa || h!IFJ_help
+INFO 2020-01-16 11:25:19 +0100 || karma || Toaster || h!karma
+INFO 2020-01-17 01:03:55 +0100 || ping || 0.1449089 || Holo's Papa || h!ping
+INFO 2020-01-17 01:04:08 +0100 || gibabay || Holo's Papa || h!ga my dicc hard 4 2080
+INFO 2020-01-17 01:07:31 +0100 || gde body || peter || gde body
+INFO 2020-01-17 02:07:04 +0100 || leaky_bucket || Holo's Papa || h!token_bucket
+INFO 2020-01-17 02:07:35 +0100 || set_quote || Holo's Papa || h!set_quote ISA je ez
+INFO 2020-01-17 02:07:53 +0100 || quote || olok || h!quote
+INFO 2020-01-17 02:40:58 +0100 || help || olok || h!help
+INFO 2020-01-17 02:41:16 +0100 || linux interjection || olok || h!linux
+INFO 2020-01-17 02:41:22 +0100 || help || olok || h!help
+INFO 2020-01-17 02:41:23 +0100 || help || olok || h!help
+INFO 2020-01-17 02:41:23 +0100 || help || olok || h!help
+INFO 2020-01-17 02:41:23 +0100 || help || olok || h!help
+INFO 2020-01-17 02:41:24 +0100 || help || olok || h!help
+INFO 2020-01-17 02:41:24 +0100 || help || olok || h!help
+INFO 2020-01-17 02:41:30 +0100 || help || olok || h!help
+INFO 2020-01-17 02:41:31 +0100 || help || olok || h!help
+INFO 2020-01-17 02:41:31 +0100 || help || olok || h!help
+INFO 2020-01-17 02:41:31 +0100 || help || olok || h!help
+INFO 2020-01-17 02:41:32 +0100 || help || olok || h!help
+INFO 2020-01-17 02:41:32 +0100 || help || olok || h!help
+INFO 2020-01-17 02:41:33 +0100 || help || olok || h!help
+INFO 2020-01-17 02:41:33 +0100 || help || olok || h!help
+INFO 2020-01-17 02:41:33 +0100 || help || olok || h!help
+INFO 2020-01-17 02:41:34 +0100 || help || olok || h!help
+INFO 2020-01-17 02:41:41 +0100 || help || olok || h!help
+INFO 2020-01-17 02:41:41 +0100 || help || olok || h!help
+INFO 2020-01-17 02:41:41 +0100 || IFJ_help || olok || h!IFJ_help
+INFO 2020-01-17 02:42:47 +0100 || rozsazeni || olok || h!rozsazeni
+INFO 2020-01-17 02:42:50 +0100 || rozsazeni-attempt || olok || h!rozsazeni
+INFO 2020-01-17 02:42:50 +0100 || rozsazeni-attempt || olok || h!rozsazeni
+INFO 2020-01-17 02:42:57 +0100 || GNF || olok || h!GNF - Greibachové normální forma
+INFO 2020-01-17 04:09:25 +0100 || PGP || Holo's Papa || h!PGP
+INFO 2020-01-17 04:10:51 +0100 || gde body || RockStar1337 || Na to ze to picuje do lidi kdyz napisou gde body
+INFO 2020-01-17 04:55:52 +0100 || ISA_help || Holo's Papa || h!ISA_help
+INFO 2020-01-17 04:55:56 +0100 || H.323 || Holo's Papa || h!H323
+INFO 2020-01-17 05:33:19 +0100 || set_quote || Holo's Papa || h!set_quote ISA je ez
+INFO 2020-01-17 06:01:53 +0100 || H.323 || Lonchi || h!H323
+INFO 2020-01-17 06:02:13 +0100 || protokol || Holo's Papa || h!protokol
+INFO 2020-01-17 06:02:37 +0100 || ISA_help || Holo's Papa || h!ISA_help
+INFO 2020-01-17 06:02:43 +0100 || RTSP || RockStar1337 || h!RTSP
+INFO 2020-01-17 06:02:49 +0100 || bezpecnost_voip || Holo's Papa || h!bezpecnost_voip
+INFO 2020-01-17 06:19:19 +0100 || LDAP || Holo's Papa || h!LDAP
+INFO 2020-01-17 07:47:14 +0100 || protokol || Danik || h!protokol
+INFO 2020-01-17 09:51:02 +0100 || ISA_help || Holo's Papa || h!ISA_help
+INFO 2020-01-17 09:51:05 +0100 || MPEG || Stojka || h!MPEG
+INFO 2020-01-17 09:51:05 +0100 || MPEG || Holo's Papa || h!MPEG
+INFO 2020-01-17 10:44:28 +0100 || body gde || Šmoula || Body gde <:HAhaa:358329530668154880>
+INFO 2020-01-17 21:22:39 +0100 || add_definition || Holo's Papa || h!add_definition ISA ayy lmawoiadj awdioj adwjiodawjiodaw oia doawjoi aj
+INFO 2020-01-17 21:23:34 +0100 || add_definition || Holo's Papa || h!add_definition ISA ayy lmawoiadj awdioj adwjiodawjiodaw oia doawjoi a
+INFO 2020-01-17 21:24:22 +0100 || add_definition || Holo's Papa || h!add_definition ISA ayy lmawoiadj awdioj adwjiodawjiodaw oia doawjoi a
+INFO 2020-01-17 21:27:41 +0100 || add_definition || Holo's Papa || h!add_definition ISA ayy lmawoiadj awdioj adwjiodawjiodaw oia doawjoi a
+INFO 2020-01-17 21:28:15 +0100 || add_definition || Holo's Papa || h!add_definition ISA ayy lmawoiadj awdioj adwjiodawjiodaw oia doawjoi a
+INFO 2020-01-17 21:31:08 +0100 || add_definition || Holo's Papa || h!add_definition ISA olok jedinec mdleho rozumu
+INFO 2020-01-17 21:36:10 +0100 || add_definition || Holo's Papa || h!add_definition AYY lmao 12 32 123 15
+INFO 2020-01-17 21:37:58 +0100 || add_definition || Holo's Papa || h!add_definition AYY lmao 12 32 123 15
+INFO 2020-01-17 21:38:53 +0100 || add_definition || Holo's Papa || h!add_definition AYY lmao 12 32 123 15
+INFO 2020-01-17 21:39:16 +0100 || add_definition || Holo's Papa || h!add_definition _test lmao 12 32 123 15
+INFO 2020-01-17 21:51:41 +0100 || gde body || peter || gde body
+INFO 2020-01-17 22:30:43 +0100 || gde body || de Mell || gde body
+INFO 2020-01-17 22:58:12 +0100 || add_definition_attempt || Holo's Papa || h!add_definition IFJ olok wadoj awiojaw djioa dw
+INFO 2020-01-17 22:59:01 +0100 || add_definition || Holo's Papa || h!add_definition IFJ olok wadoj awiojaw djioa dw
+INFO 2020-01-17 23:04:16 +0100 || ping || 0.8463497 || Holo's Papa || h!ping
+INFO 2020-01-18 15:03:33 +0100 || ping || 1.8933384 || Holo's Papa || h!ping
+INFO 2020-01-18 15:03:40 +0100 || ping || 1.9447273 || Holo's Papa || h!ping
+INFO 2020-01-18 15:03:54 +0100 || ping || 1.9986416 || Holo's Papa || h!ping
+INFO 2020-01-18 15:04:07 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-18 15:04:55 +0100 || ping || 1.9061274 || Holo's Papa || h!ping
+INFO 2020-01-18 15:05:00 +0100 || why_ruby || Janinka || h!why_ruby
+INFO 2020-01-18 15:09:10 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-18 15:09:52 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-18 15:10:01 +0100 || exams || Holo's Papa || h!exams
+INFO 2020-01-18 17:44:45 +0100 || add_definition || olok || h!add_definition olok kripl to je
+INFO 2020-01-18 17:52:59 +0100 || add_definition || olok || h!add_definition TEST
+INFO 2020-01-18 17:53:36 +0100 || add_definition || olok || h!add_definition TEST EAlOyZqqYyqgXuwdITmxEwiYMWtqRGmqFfsIdURexAKFUrtJOhrASwonKynEnTTvLfJkRtZEqFVhAfawyrPSDGjZEqWlcPPLaVflDlDSyQcIyCByDkxFvLhnTTBHobRBpExDinhlZPmUNpMJYtdwgTClkxrifPunyixVXpMOGxRwQLVOmaAeVhChxUQTNAEmpfQSzmIIXAEHegizsaCdKuKRQhTjbNNOByLbaDvINElYrNJpArFxeFcGQatBcvdoJrkedVmeuOtIIWWfkSmmTuTLhBbyeZBZcUZlLdTFvxrfxjkBmXaMPcUMMSqfwFgLVAaCQkxVaVarcgUXRTiuDsQdVSJJvEHmaGJnEDmcXWwSEqBiOzzyUZPpXfmvYiKKXSCAbGsaTtGPaQFKJJDLXysYRWoAdAxhvIlgARGyY
+INFO 2020-01-18 17:54:17 +0100 || add_definition || olok || h!add_definition TEST bla
+INFO 2020-01-18 21:34:24 +0100 || ping || 0.0812605 || louda || h!ping
+INFO 2020-01-18 21:38:12 +0100 || ping || 0.0828655 || Holo's Papa || h!ping
+INFO 2020-01-18 21:40:13 +0100 || linux interjection || louda || h!linux
+INFO 2020-01-19 00:30:41 +0100 || ping || 0.0961371 || Holo's Papa || h!ping
+INFO 2020-01-19 00:31:13 +0100 || ping || 0.1514498 || Holo's Papa || h!ping
+INFO 2020-01-19 00:31:30 +0100 || set_quote || Holo's Papa || h!set_quote kokot
+INFO 2020-01-19 00:31:37 +0100 || set_quote || Holo's Papa || h!set_quote kokot aoij adwoij adjoiad wiojcasioj d
+INFO 2020-01-19 00:31:56 +0100 || set_quote || Cabbage || h!set_quote jj
+INFO 2020-01-19 00:33:51 +0100 || ping || 0.2046036 || Holo's Papa || h!ping
+INFO 2020-01-19 00:34:15 +0100 || set_quote || Holo's Papa || h!set_quote Olok krvaci z analu
+INFO 2020-01-19 00:34:32 +0100 || quote || Holo's Papa || h!quote
+INFO 2020-01-19 00:36:17 +0100 || set_quote || Cabbage || h!set_quote 13%
+INFO 2020-01-19 00:47:11 +0100 || cbt || Holo's Papa || h!cbt
+INFO 2020-01-19 03:27:38 +0100 || ping || 2.406823 || Holo's Papa || h!ping
+INFO 2020-01-19 03:27:41 +0100 || ping || 0.1414832 || Holo's Papa || h!ping
+INFO 2020-01-19 03:29:25 +0100 || ping || 1.4359896 || Holo's Papa || h!ping
+INFO 2020-01-19 03:31:06 +0100 || ping || 1.8572883 || Holo's Papa || h!ping
+INFO 2020-01-19 03:32:31 +0100 || ping || 1.8737151 || Holo's Papa || h!ping
+INFO 2020-01-19 03:33:38 +0100 || ping || 0.8129136 || Holo's Papa || h!ping
+INFO 2020-01-19 03:34:41 +0100 || ping || 1.2823861 || Holo's Papa || h!ping
+INFO 2020-01-19 03:36:53 +0100 || ping || 0.1814661 || Holo's Papa || h!ping
+INFO 2020-01-19 03:38:14 +0100 || ping || 1.7991423 || Holo's Papa || h!ping
+INFO 2020-01-19 03:40:34 +0100 || ping || 0.0821668 || Holo's Papa || h!ping
+INFO 2020-01-19 03:50:58 +0100 || ping || 0.168603 || Holo's Papa || h!ping
+INFO 2020-01-19 04:02:06 +0100 || ping || 0.1464833 || Holo's Papa || h!ping
+INFO 2020-01-19 04:02:56 +0100 || ping || 0.1402594 || Holo's Papa || h!ping
+INFO 2020-01-19 04:06:18 +0100 || ping || 0.1533609 || Holo's Papa || h!ping
+INFO 2020-01-19 12:14:33 +0100 || ping || 0.2006027 || Holo's Papa || h!ping
+INFO 2020-01-19 12:14:48 +0100 || ping || 0.1968468 || Holo's Papa || h!ping
+INFO 2020-01-19 12:18:14 +0100 || ping || 0.1998297 || Holo's Papa || h!ping
+INFO 2020-01-19 12:18:57 +0100 || ping || 0.2807932 || Holo's Papa || h!ping
+INFO 2020-01-19 12:19:54 +0100 || ping || 2.9641222 || Holo's Papa || h!ping
+INFO 2020-01-19 12:20:00 +0100 || ping || 0.2085959 || Holo's Papa || h!ping
+INFO 2020-01-19 12:21:33 +0100 || ping || 1.2189564 || Holo's Papa || h!ping
+INFO 2020-01-19 12:21:36 +0100 || ping || 0.2023151 || Holo's Papa || h!ping
+INFO 2020-01-19 12:22:49 +0100 || ping || 0.260721 || Holo's Papa || h!ping
+INFO 2020-01-19 12:22:56 +0100 || ping || 0.1888569 || Holo's Papa || h!ping
+INFO 2020-01-19 12:27:34 +0100 || ping || 0.1930026 || Holo's Papa || h!ping
+INFO 2020-01-19 12:28:07 +0100 || ping || 1.5143213 || Holo's Papa || h!ping
+INFO 2020-01-19 12:30:10 +0100 || ping || 0.2059714 || Holo's Papa || h!ping
+INFO 2020-01-19 15:37:55 +0100 || add_definition || Holo's Papa || h!add_definition IMP MISRA Motor Industry Software Reliability Association
+INFO 2020-01-19 15:38:24 +0100 || add_definition || Holo's Papa || h!add_definition IMP ACLE Arm C Language Extensions
+INFO 2020-01-19 15:39:00 +0100 || add_definition || Holo's Papa || h!add_definition IMP CMSIS Cortex Microcontroller Software Interface Standard
+INFO 2020-01-19 16:16:10 +0100 || add_definition || Holo's Papa || h!add_definition IMP RTOS Real-time operating system
+INFO 2020-01-19 17:14:20 +0100 || add_definition || Holo's Papa || h!add_definition IMP GPIO General Purpose I/O
+INFO 2020-01-19 17:14:35 +0100 || add_definition || Holo's Papa || h!add_definition IMP PDOR Port Data Output
+INFO 2020-01-19 17:14:49 +0100 || add_definition || Holo's Papa || h!add_definition PSOR Port Set Output
+INFO 2020-01-19 17:14:57 +0100 || add_definition || Holo's Papa || h!add_definition IMP PSOR Port Set Output
+INFO 2020-01-19 17:16:32 +0100 || add_definition || Holo's Papa || h!add_definition IMP PDO Port Data Output
+INFO 2020-01-19 17:16:42 +0100 || add_definition || Holo's Papa || h!add_definition IMP PTSO Port Set Output
+INFO 2020-01-19 17:16:56 +0100 || add_definition || Holo's Papa || h!add_definition IMP PTCO Port Clear Output
+INFO 2020-01-19 17:17:30 +0100 || add_definition || Holo's Papa || h!add_definition IMP PTOR Port Toggle Output Register
+INFO 2020-01-19 17:17:47 +0100 || add_definition || Holo's Papa || h!add_definition IMP PDIR Port Data Input Register
+INFO 2020-01-19 17:18:00 +0100 || add_definition || Holo's Papa || h!add_definition IMP PDDR Port Data Direction Register
+INFO 2020-01-19 17:41:33 +0100 || add_definition || Holo's Papa || h!add_definition IMP TPM Timer/PWM Module
+INFO 2020-01-19 17:41:51 +0100 || add_definition || Holo's Papa || h!add_definition IMP LPTMR Low-power Timer
+INFO 2020-01-19 17:42:00 +0100 || add_definition || Holo's Papa || h!add_definition IMP PIT Periodic Interrupt Timer
+INFO 2020-01-19 17:42:12 +0100 || add_definition || Holo's Papa || h!add_definition IMP RTC Real-time Clock
+INFO 2020-01-19 18:47:46 +0100 || gibabay || Holo's Papa || h!ga
+INFO 2020-01-19 22:48:34 +0100 || gde body || Gojin (Pašerák) || Gde body<:honzikPika:531230731100225566>
+INFO 2020-01-20 02:41:01 +0100 || set_quote || Holo's Papa || h!set_quote Olok nema pravdu
+INFO 2020-01-20 02:41:46 +0100 || ping || 0.3149549 || Holo's Papa || h!ping
+INFO 2020-01-20 02:42:02 +0100 || ping || 0.223295 || Dajvid || h!ping
+INFO 2020-01-20 02:42:27 +0100 || ping || 3.0428599 || Dajvid || h!ping
+INFO 2020-01-20 02:42:27 +0100 || ping || 2.2856713 || Dajvid || h!ping
+INFO 2020-01-20 02:42:27 +0100 || ping || 0.3155602 || olok || h!ping
+INFO 2020-01-20 02:42:28 +0100 || ping || 0.2298673 || olok || h!ping
+INFO 2020-01-20 02:42:29 +0100 || ping || 0.2209838 || olok || h!ping
+INFO 2020-01-20 02:42:29 +0100 || ping || 0.3263072 || olok || h!ping
+INFO 2020-01-20 02:42:30 +0100 || ping || 0.2469682 || olok || h!ping
+INFO 2020-01-20 02:42:31 +0100 || ping || 0.2417886 || olok || h!ping
+INFO 2020-01-20 02:42:37 +0100 || ping || 0.2138423 || Gojin (Pašerák) || h!ping
+INFO 2020-01-20 02:43:12 +0100 || ping || 0.2645501 || Gojin (Pašerák) || h!ping
+INFO 2020-01-20 02:47:11 +0100 || why_ruby || olok || h!why_ruby
+INFO 2020-01-20 13:16:35 +0100 || gde body || Kateriska || gde body
+INFO 2020-01-20 13:16:54 +0100 || pasta || Šmoula || h!pasta
+INFO 2020-01-20 13:18:16 +0100 || ping || 0.1576023 || Dajvid || h!ping
+INFO 2020-01-20 13:36:07 +0100 || ping || 0.1465363 || Holo's Papa || h!ping
+INFO 2020-01-20 13:40:53 +0100 || gde body || Holo's Papa || gde body
+INFO 2020-01-20 13:41:01 +0100 || gde body || Holo's Papa || body gde
+INFO 2020-01-20 13:41:06 +0100 || gde body || Holo's Papa || :GDEBODY:
+INFO 2020-01-20 13:41:26 +0100 || gde body || Holo's Papa || :GDEBODY:
+INFO 2020-01-20 13:42:15 +0100 || karma || Dajvid || h!karma
+INFO 2020-01-20 13:42:49 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-20 13:42:53 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-20 13:43:04 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-20 17:11:31 +0100 || ping || 0.135566 || Holo's Papa || h!ping
+INFO 2020-01-20 19:47:06 +0100 || gibabay || Holo's Papa || h!ga
+INFO 2020-01-21 01:00:15 +0100 || gde body || RockStar1337 || Kokot omggg jak mam usnout gde body
+INFO 2020-01-21 01:29:33 +0100 || gde body || Skyyya || gde body
+INFO 2020-01-21 01:30:04 +0100 || karma || olok || h!karma
+INFO 2020-01-21 04:57:50 +0100 || gibabay || Holo's Papa || h!ga
+INFO 2020-01-21 12:27:38 +0100 || gde body || Greav || <:GDEBODY:665493819827159070>
+INFO 2020-01-21 12:47:03 +0100 || gde body || Šmoula || body gde https://media1.tenor.com/images/21668ae3a615836f8e3e4a18c85ccb4f/tenor.gif?itemid=15499382
+INFO 2020-01-21 14:20:14 +0100 || why_ruby || olok || h!why_ruby
+INFO 2020-01-21 15:39:18 +0100 || gde body || RockStar1337 || Gde body
+INFO 2020-01-21 15:41:18 +0100 || gde body || Kateriska || Gde body <:extraREEE:357918629972672513>
+INFO 2020-01-21 16:46:03 +0100 || gde body || RockStar1337 || Málo spamujeme gde body
+INFO 2020-01-21 17:46:21 +0100 || gde body || Šmoula || BODY GDE
+INFO 2020-01-21 18:49:10 +0100 || pasta || Dajvid || h!pasta
+INFO 2020-01-22 16:43:21 +0100 || pasta || Dajvid || h!pasta
+INFO 2020-01-24 14:30:01 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-24 18:17:22 +0100 || gibabay || Holo's Papa || h!ga
+INFO 2020-01-24 19:09:53 +0100 || diag || Holo's Papa || h!diag
+INFO 2020-01-25 02:18:43 +0100 || add_definition || Holo's Papa || h!add_definition ISA EAP Extensible Authentication Protocol
+INFO 2020-01-25 02:31:55 +0100 || add_definition || Holo's Papa || h!add_definition ISA RMON Remote Network Monitoring
+INFO 2020-01-25 16:06:25 +0100 || add_definition || Holo's Papa || h!add_definition ISA RRSIG Záznamy RRSIG (Resource Record Signature) obsahují podpisy jednotlivých záznamů v podepsané zóně. Záznam obsahuje také dobu platnosti podpisu, použitý algoritmus, jméno podepisující autority a příznak, který se odkazuje na veřejný klíč pro ověření podpisu.
+INFO 2020-01-25 16:08:21 +0100 || add_definition || Holo's Papa || h!add_definition ISA RSA A public-key encryption technology developed by RSA Data Security, Inc. The acronym stands for Rivest, Shamir, and Adelman, the inventors of the technique.
+INFO 2020-01-25 16:09:19 +0100 || add_definition || Holo's Papa || h!add_definition ISA SHA Secure Hash Algorithm
+INFO 2020-01-25 16:19:14 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-25 16:19:18 +0100 || pasta || Holo's Papa || h!pasta coomer
+INFO 2020-01-25 16:22:33 +0100 || pasta || Holo's Papa || h!pasta
+INFO 2020-01-25 16:22:35 +0100 || pasta || Holo's Papa || h!pasta x3
+INFO 2020-01-25 16:22:52 +0100 || pasta || Holo's Papa || h!pasta supernut
+INFO 2020-01-25 16:23:08 +0100 || pasta || Holo's Papa || h!pasta jest
+INFO 2020-01-25 16:23:24 +0100 || pasta || Holo's Papa || h!pasta orgasm
+INFO 2020-01-25 16:24:55 +0100 || pasta || Holo's Papa || h!pasta coom
+INFO 2020-01-25 16:26:01 +0100 || pasta || Holo's Papa || h!pasta beans
+INFO 2020-01-25 16:29:18 +0100 || pasta || Holo's Papa || h!pasta childless_women
+INFO 2020-01-25 16:31:37 +0100 || pasta || Holo's Papa || h!pasta vapers
+INFO 2020-01-25 16:33:18 +0100 || pasta || Holo's Papa || h!pasta entitled_m_d
+INFO 2020-01-25 16:41:21 +0100 || pasta || Holo's Papa || h!pasta copypasta_is_art
+INFO 2020-01-25 16:41:36 +0100 || pasta || Holo's Papa || h!pasta hentai
+INFO 2020-01-25 16:41:49 +0100 || pasta || Holo's Papa || h!pasta foxy_baby
+INFO 2020-01-25 17:12:14 +0100 || ping || 1.3996285 || Holo's Papa || h!ping
+INFO 2020-01-25 17:12:59 +0100 || ping || 1.3329006 || Holo's Papa || h!ping
+INFO 2020-01-31 11:20:55 +0100 || ping || 0.4598575 || Definitely not Holo || h!ping
+INFO 2020-02-05 17:00:51 +0100 || pasta || Definitely not Holo || h!pasta raid_shadow_legends
+INFO 2020-02-06 18:55:12 +0100 || ping || 0.2857075 || Definitely not Holo || h!ping
+INFO 2020-02-06 19:16:01 +0100 || set_quote || Definitely not Holo || h!set_quote I love beans
+INFO 2020-02-06 19:16:05 +0100 || quote || Definitely not Holo || h!quote
+INFO 2020-02-11 13:34:13 +0100 || set_quote || Definitely not Holo || h!set_quote All men are kings
+INFO 2020-02-11 13:34:16 +0100 || quote || Definitely not Holo || h!quote
+INFO 2020-02-11 13:36:07 +0100 || set_quote || Zanahorius || h!set_quote Only betas dump women after fucking them. Real Chads make them feel loved.
+INFO 2020-02-11 13:36:25 +0100 || quote || Zanahorius || h!quote
+INFO 2020-02-11 13:42:48 +0100 || pasta || Definitely not Holo || h!pasta orgasm
+INFO 2020-02-11 13:43:31 +0100 || pasta || Definitely not Holo || h!pasta
+INFO 2020-02-16 15:54:37 +0100 || ping || 0.8871116 || Definitely not Holo || h!ping
+INFO 2020-02-16 16:08:39 +0100 || add_definition_attempt || Definitely not Holo || h!add_definition ISA test 123
+INFO 2020-02-20 15:06:17 +0100 || pasta || Definitely not Holo || h!pasta
+INFO 2020-02-20 15:07:59 +0100 || pasta || Definitely not Holo || h!pasta
+INFO 2020-02-20 15:16:10 +0100 || pasta || Definitely not Holo || h!pasta
+INFO 2020-02-21 02:31:05 +0100 || pasta || Definitely not Holo || h!pasta
+INFO 2020-02-21 02:41:41 +0100 || pasta || Definitely not Holo || h!pasta
+INFO 2020-02-21 02:43:21 +0100 || pasta || Definitely not Holo || h!pasta

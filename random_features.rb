@@ -36,6 +36,10 @@ bot.command(:ping) do |event|
   "#{Time.now - event.timestamp} s"
 end
 
+bot.command(:dan) do |event|
+	"The depicted character is over 18 years old, as explained in their respective backstory and therefore falls under pettanko (adults with bodies that **look** young), not loli (children)."
+end
+
 bot.command(:pastas) do |event|
   msg = ""
   content = Dir["./copypastas/**.txt"]

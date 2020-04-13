@@ -3,7 +3,7 @@ include Bot
 
 $last_copypasta = ""
 $last_gde_body = Time.now - 60
-
+$gato_messages = []
 
 
 bot.command(:flip) do |event|
@@ -125,6 +125,21 @@ bot.message(contains: /nem[aá]m pravdu\??/i) do |event|
       event.respond "Ano, máš pravdu."
     end
   end
+end
+
+bot.message(from: UserIDs.gato) do |event|
+  $gato_messages.append("#{event.message.id}|#{event.content}")
+  $gato_messages.shift(1) if $gato_messages.length > 50
+end
+
+bot.message_delete() do |event|
+  $gato_messages.each do |message|
+    if message.split('|')[0] == event.id.to_s
+      message.slice!(event.id.to_s + "|")
+      event.respond "Gato said: #{message}"
+    end
+  end
+  nil
 end
 
 # example

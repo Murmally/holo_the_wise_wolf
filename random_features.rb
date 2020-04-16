@@ -4,6 +4,7 @@ include Bot
 $last_copypasta = ""
 $last_gde_body = Time.now - 60
 $gato_messages = []
+$gato_images = []
 
 
 bot.command(:flip) do |event|
@@ -128,15 +129,17 @@ bot.message(contains: /nem[aá]m pravdu\??/i) do |event|
 end
 
 bot.message(from: UserIDs.gato) do |event|
+  return nil if event.message.content.strip!.empty?
   $gato_messages.append("#{event.message.id}|#{event.content}")
   $gato_messages.shift(1) if $gato_messages.length > 50
+  nil
 end
 
 bot.message_delete() do |event|
   $gato_messages.each do |message|
     if message.split('|')[0] == event.id.to_s
       message.slice!(event.id.to_s + "|")
-      event.respond "Gato said: #{message}"
+      event.respond "FagGato said: #{message}"
     end
   end
   nil
